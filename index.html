@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia viewer</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link rel="stylesheet" href="layout.css" type="text/css">
+</head>
+<body>
+<div class = "container">
+    <h1 class = "heading text-center">Wikipedia Viewer</h1>
+
+    <div class = "search-row row row centered">
+        <div class ="col-md-6 col-centered col-xs-offset-3">
+            <div class = "input-group text-center">
+                <input class = "form-control" id="searchbar">
+                <span class="input-group-button">
+  <a href="#" class = "btn btn-default" id="submitbutton"><i class = "fa fa-search pull-right"></i>Search</a>
+<a href = "https://en.wikipedia.org/wiki/Special:Random" target = "_blank" class = "btn btn-default" id = "random">Learn something new? <i class = "fa fa-random"></i></a>
+        </span>
+            </div>
+        </div>
+        <div>
+            <ul id = "output">
+            </ul>
+        </div>
+        <script src="wiki.js" type="text/javascript"></script>
+</body>
+</html>
