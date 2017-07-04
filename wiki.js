@@ -1,5 +1,5 @@
 /**
- * Created by Neha.
+ * Created by Manideep.
  */
 $(document).ready(function(){
     $('#submitbutton').click(function(){
